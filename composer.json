@@ -20,7 +20,7 @@
     "require": {
         "php": "^5.5.9 || ^7.0",
         "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*",
-        "winzou/state-machine": "^0.3.2"
+        "winzou-state-machine": "1.0"
     },
     "require-dev": {
         "mockery/mockery": "^0.9.6",
@@ -52,5 +52,17 @@
                 "StateMachine": "Sebdesign\\SM\\Facade"
             }
         }
-    }
+    },
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "winzou-state-machine", //give package name to anything, must be unique
+            "version": "1.0",
+            "source": {
+                 "url": "https://github.com/countnoobula/state-machine.git", //git url
+                 "type": "git",
+                 "reference": "State-plus-transition-keys-destination" //git branch-name
+            }
+        }
+    }],
 }

@@ -56,13 +56,13 @@
     "repositories": [{
         "type": "package",
         "package": {
-            "name": "winzou-state-machine", //give package name to anything, must be unique
+            "name": "winzou-state-machine",
             "version": "1.0",
             "source": {
-                 "url": "https://github.com/countnoobula/state-machine.git", //git url
+                 "url": "https://github.com/countnoobula/state-machine.git",
                  "type": "git",
-                 "reference": "State-plus-transition-keys-destination" //git branch-name
+                 "reference": "State-plus-transition-keys-destination"
             }
         }
-    }],
+    }]
 }
